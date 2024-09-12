@@ -20,7 +20,7 @@ from setuptools import setup
 from setuptools.command.install import install
 from setuptools.dist import Distribution
 
-__version__ = '0.13.1'
+__version__ = '0.13.2'
 project_name = 'lingvo'
 if '--project_name' in sys.argv:
   project_name_idx = sys.argv.index('--project_name')
@@ -47,8 +47,8 @@ REQUIRED_PACKAGES = [
     'tensorflow-datasets',
     'tensorflow-hub',
     'tensorflow-probability',
-    'tensorflow-text~=2.13.0',
-    'tensorflow~=2.13.0',
+    'tensorflow-text~=2.17.0',
+    'tensorflow~=2.17.0',
 ]
 
 
